@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Caleb King\\source\\repos\\CalebKing848\\IndividualApplication\\FortniteClubApp\\FortniteClubApp\\FortniteClubApp.csproj": {}
+    "C:\\Users\\Caleb King\\Source\\Repos\\CalebKing848\\IndividualApplication\\FortniteClubApp\\FortniteClubApp\\FortniteClubApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Caleb King\\source\\repos\\CalebKing848\\IndividualApplication\\FortniteClubApp\\FortniteClubApp\\FortniteClubApp.csproj": {
+    "C:\\Users\\Caleb King\\Source\\Repos\\CalebKing848\\IndividualApplication\\FortniteClubApp\\FortniteClubApp\\FortniteClubApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Caleb King\\source\\repos\\CalebKing848\\IndividualApplication\\FortniteClubApp\\FortniteClubApp\\FortniteClubApp.csproj",
+        "projectUniqueName": "C:\\Users\\Caleb King\\Source\\Repos\\CalebKing848\\IndividualApplication\\FortniteClubApp\\FortniteClubApp\\FortniteClubApp.csproj",
         "projectName": "FortniteClubApp",
-        "projectPath": "C:\\Users\\Caleb King\\source\\repos\\CalebKing848\\IndividualApplication\\FortniteClubApp\\FortniteClubApp\\FortniteClubApp.csproj",
+        "projectPath": "C:\\Users\\Caleb King\\Source\\Repos\\CalebKing848\\IndividualApplication\\FortniteClubApp\\FortniteClubApp\\FortniteClubApp.csproj",
         "packagesPath": "C:\\Users\\Caleb King\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Caleb King\\source\\repos\\CalebKing848\\IndividualApplication\\FortniteClubApp\\FortniteClubApp\\obj\\",
+        "outputPath": "C:\\Users\\Caleb King\\Source\\Repos\\CalebKing848\\IndividualApplication\\FortniteClubApp\\FortniteClubApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

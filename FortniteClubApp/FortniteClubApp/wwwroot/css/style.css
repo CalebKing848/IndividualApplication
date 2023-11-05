@@ -1,9 +1,60 @@
-﻿ul {
-    list-style-type: none;
+﻿* {
     margin: 0;
     padding: 0;
 }
 
-li {
-    display: inline;
+body {
+    padding-left: 200px;
+    padding-right: 200px;
+    background-image: url('../img/Fortnite.jpg');
+    background-repeat: no-repeat;
+}
+
+.nav-bar {
+    background-color: #0094e9;
+    padding: 20px;
+}
+
+.title {
+    margin-right: 15px;
+}
+
+
+.nav-bar ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.nav-bar li {
+    float: left;
+}
+
+.nav-bar li a {
+ display: block;
+ color: white;
+ text-align: center;
+ padding: 14px 16px;
+ text-decoration: none;
+ font-weight: bold;
+ font-family: 'Inter', sans-serif;
+}
+
+.nav-bar li a:hover {
+    color: #b8b8b8;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #2196F3;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
 }

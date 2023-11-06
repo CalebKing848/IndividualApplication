@@ -1,8 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\FortniteClubApp"
+    "\\FortniteClubApp",
+    "\\FortniteClubApp\\FortniteClubApp",
+    "\\FortniteClubApp\\FortniteClubApp\\wwwroot",
+    "\\FortniteClubApp\\FortniteClubApp\\wwwroot\\css"
   ],
-  "SelectedNode": "\\FortniteClubApp\\FortniteClubApp.sln",
+  "SelectedNode": "\\FortniteClubApp\\FortniteClubApp\\wwwroot\\index.html",
   "PreviewInSolutionExplorer": false
 }

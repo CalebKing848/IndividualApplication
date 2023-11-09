@@ -10,46 +10,23 @@ body {
     background-repeat: no-repeat;
 }
 
-.nav-bar {
-    background-color: #272729;
-    padding: 25px;
+.navbar {
     border: 1px solid black;
+    margin: 0px !important;
+    padding: 20px;
+    background-image: url('../img/texture.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.title {
-    margin-right: 15px;
+.navbar-inverse .navbar-nav > li > a {
+    color: #fff !important;
 }
 
-
-.nav-bar ul {
-    list-style-type: none;
-    overflow: hidden;
+.navbar-inverse .navbar-brand {
+    color: #fff !important;
 }
 
-.nav-bar li {
-    float: left;
-}
-
-.nav-bar li a {
- display: block;
- color: white;
- text-align: center;
- padding: 14px 16px;
- text-decoration: none;
-font-family: 'Burbank Big Condensed';
-}
-
-.nav-bar li a:hover {
-    color: #b8b8b8;
-}
-
-.nav-right {
-    float: right;
-}
-
-.title {
-    font-weight:bold;
-}
 
 .grid-container {
     display: grid;
@@ -70,7 +47,8 @@ font-family: 'Burbank Big Condensed';
     width: 100%;
     padding: 10px;
     margin-bottom: 7px;
-   
+    border-radius: 5px;
+    border: 1px solid;
 }
 
 .purple {
@@ -81,21 +59,19 @@ font-family: 'Burbank Big Condensed';
     background-color: #62ff00;
 }
 
-
-.image {
-    width: 100%;
-}
-
 footer {
-    background-color: red;
     padding: 15px;
+    background-image: url('../img/texture.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
 }
 
 .header {
     background-image: url('../img/banner.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 185px;
+    height: 200px;
 }
 
 .header-content {
@@ -107,17 +83,176 @@ footer {
 
 .header-btn {
     color: #fff;
-    background-color: #e70000;
-    padding: 10px 120px;
-    border-radius: 5px;
-    border: 1px solid #434343;
+    padding: 8px 60px;
+    border: 1px solid #898989;
     margin-right: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #2137d2;
+}
+
+.header-btn:hover {
+     background-color: #202b79;
+     transition: .2s ease-in-out;
 }
 
 
-
+.icon {
+    width: 25px;
+    height: 25px;
+}
 
 .header-title {
     color: #fff;
     margin-left: 15px;
+    padding: 10px 25px;
+    background-color: #be0000;
+}
+
+.c1{
+    background-color: #e20608;
+}
+
+.c1:hover {
+    background-color: #c30103;
+    transition: .2s ease-in-out;
+}
+
+
+.c2 {
+    background-color: #f87cfa;
+}
+
+.c2:hover {
+    background-color: #de68e0;
+    transition: .2s ease-in-out;
+}
+
+.c3 {
+    background-color: #cf773c;
+}
+
+.c3:hover  {
+    background-color: #b76a36;
+    transition: .2s ease-in-out;
+}
+
+.c4 {
+    background-color: #40dc50;
+}
+
+.c4:hover {
+    background-color: #36bc44;
+    transition: .2s ease-in-out;
+}
+
+.c5 {
+    background-color: #6f49ff;
+}
+
+.c5:hover  {
+    background-color: #5d3ed4;
+    transition: .2s ease-in-out;
+}
+
+.c6 {
+    background-color: #e5ff49;
+}
+
+.c6:hover {
+    background-color: #dcf543;
+     transition: .2s ease-in-out;
+}
+
+
+/* Modal content */
+.container11 {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    width: 75%;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.display-none {
+    display: none;
+}
+
+.paragraph {
+    line-height: 3.5rem;
+}
+
+.gif-image {
+    width: 100%;
+    height: 700px;
+}
+
+.gif-image2 {
+    width: 100%;
+    height: 350px;
+}
+
+.fortnite-img {
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    border: 1px solid #d5d5d5;
+}
+
+.form-content {
+    width: 50%;
+}
+
+.center-content {
+    display: flex;
+    justify-content: center;
+}
+
+.m-t {
+    margin-top: 25px;
+}
+
+#modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .7);
+    z-index: 9999;
+}
+
+
+.frame {
+    background-color: red;
+    position: fixed;
+    top: 0%;
+    left: 78%;
+    padding: 5px;
+    transform: rotate(40deg);
+}
+
+.c-img {
+    width: 360px;
+}
+
+.c1-img {
+    width: 400px;
+}
+
+.h-i {
+    height: 45px;
+}
+
+.l-g {
+    color: #1a722c;
+}
+
+.btn-submit {
+    padding: 10px 30px;
 }

@@ -3,9 +3,14 @@
     "",
     "\\FortniteClubApp",
     "\\FortniteClubApp\\FortniteClubApp",
+    "\\FortniteClubApp\\FortniteClubApp\\Views",
+    "\\FortniteClubApp\\FortniteClubApp\\Views\\Contact",
+    "\\FortniteClubApp\\FortniteClubApp\\Views\\Home",
+    "\\FortniteClubApp\\FortniteClubApp\\Views\\Shared",
     "\\FortniteClubApp\\FortniteClubApp\\wwwroot",
-    "\\FortniteClubApp\\FortniteClubApp\\wwwroot\\css"
+    "\\FortniteClubApp\\FortniteClubApp\\wwwroot\\css",
+    "\\FortniteClubApp\\FortniteClubApp\\wwwroot\\js"
   ],
-  "SelectedNode": "\\FortniteClubApp\\FortniteClubApp\\wwwroot\\index.html",
+  "SelectedNode": "\\FortniteClubApp\\FortniteClubApp\\wwwroot\\css\\style.css",
   "PreviewInSolutionExplorer": false
 }

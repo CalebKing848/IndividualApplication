@@ -1,9 +1,59 @@
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Fortnite Pro Clucbs</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="/css/style.css" rel="stylesheet" type="text/css"> <!--Link to CSS-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="js/modal.js"></script>
+</head>
+<body>
 
-li {
-  display: inline;
-}
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Fortnite Empire</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                <li><a href="#">Member News</a></li>
+                <li><a href="#">Upcoming Competitions</a></li>
+                <li>@Html.ActionLink("Contact us", "Index", "Contact")</li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="header">
+        <div class="header-content">
+            <h1 class="header-title">Fortnite Empire Club</h1>
+            <button onclick="VBucks()" type="button" class="header-btn">FREE V-BUCKS</button>
+        </div>
+    </div>
+
+
+    @RenderBody()
+
+
+
+    <footer>Copyright © 2023 Fortnite Empire </footer>
+
+
+        <div id="modal" class="display-none">
+            <div id="modal-content" class="container11">
+
+                
+            </div>
+        </div>
+
+
+
+
+
+</body>
+</html>

@@ -5,7 +5,11 @@ function Rick() {
 
     if (modal.classList.contains("display-none")) {
         modal.classList.remove("display-none");
-        modal_content.innerHTML ='<img class="gif-image" src="gif/dance.gif" alt="Rick Roll">';
+        modal_content.innerHTML = `
+        <img class="gif-image" src="gif/dance.gif" alt="Rick Roll">
+        <div class="frame2"> <img class="c-img" src="img/rick.jpg" alt="Rick Roll"></div>
+        <div class="frame"> <img class="c-img" src="img/rick.jpg" alt="Rick Roll"></div>
+        `;
         var snd = new Audio("../sound/rick.mp3");
         snd.play();
 
@@ -21,7 +25,10 @@ function Choomah() {
 
     if (modal.classList.contains("display-none")) {
         modal.classList.remove("display-none");
-        modal_content.innerHTML = '<img class="gif-image" src="gif/choomah.gif" alt="Rick Roll">';
+        modal_content.innerHTML = ` <img class="gif-image" src="gif/choomah.gif" alt="Rick Roll">
+         <div class="frame2"> <img class="c1-img" src="img/coke.jpg" alt="Rick Roll"></div>
+         <div class="frame"> <img class="c1-img" src="img/coke.jpg" alt="Rick Roll"></div>
+        `
         var snd = new Audio("../sound/choomah.mp3");
         snd.play();
     }
@@ -38,7 +45,8 @@ function Sassy() {
         modal.classList.remove("display-none");
         modal_content.innerHTML = `
         <img class="gif-image" src="gif/sassy.gif" alt="Rick Roll">
-        <div class="frame"> <img class="c1-img" src="img/caleb.png" alt="Rick Roll"></div>
+        <div class="frame2"> <img class="c1-img" src="img/kina.jpeg" alt="Rick Roll"></div>
+        <div class="frame"> <img class="c1-img" src="img/kina.jpeg" alt="Rick Roll"></div>
 
         `;
         var snd = new Audio("../sound/sassy.mp3");
@@ -58,6 +66,7 @@ function Cricket() {
         modal.classList.remove("display-none");
         modal_content.innerHTML = `
         <img class="gif-image" src="gif/cricket.gif" alt="Rick Roll">
+        <div class="frame2"> <img class="c-img" src="img/navdeep.jpg" alt="Rick Roll"></div>
         <div class="frame"> <img class="c-img" src="img/navdeep.jpg" alt="Rick Roll"></div>
         `;
         var snd = new Audio("../sound/cheering.mp3");
@@ -75,7 +84,11 @@ function Donny() {
 
     if (modal.classList.contains("display-none")) {
         modal.classList.remove("display-none");
-        modal_content.innerHTML = '<img class="gif-image" src="gif/donny.gif" alt="Rick Roll">';
+        modal_content.innerHTML = `
+         <img class="gif-image" src="gif/donny.gif" alt="Rick Roll">
+        <div class="frame"> <img class="c-img" src="img/caleb.png" alt="Rick Roll"></div>
+        <div class="frame2"> <img class="c-img" src="img/caleb.png" alt="Rick Roll"></div>
+        `
         var snd = new Audio("../sound/sassy.mp3");
         snd.play();
     }
@@ -91,7 +104,10 @@ function Clarence() {
 
     if (modal.classList.contains("display-none")) {
         modal.classList.remove("display-none");
-        modal_content.innerHTML = '<img class="gif-image" src="gif/clarence.gif" alt="Rick Roll">';
+        modal_content.innerHTML = `<img class="gif-image" src="gif/clarence.gif" alt="Rick Roll">
+        <div class="frame"> <img class="c-img" src="img/eminem.jpg" alt="Rick Roll"></div>
+        <div class="frame2"> <img class="c-img" src="img/eminem.jpg" alt="Rick Roll"></div>
+        `;
         var snd = new Audio("../sound/clarence.mp3");
         snd.play();
     }
@@ -108,7 +124,7 @@ function VBucks() {
     if (modal.classList.contains("display-none")) {
         modal.classList.remove("display-none");
         modal_content.innerHTML = `
-            <img class="gif-image2" src="gif/sassy2.gif" alt="Rick Roll">
+            <img class="gif-image2" src="gif/vbucks.gif" alt="Rick Roll">
         <h1 style="color:green;" class="text-center">Free V-BUCKS</h1>
         <div class="center-content">
              <div class="form-content">
@@ -132,7 +148,7 @@ function VBucks() {
 function Submit() {
     const modal_content = document.getElementById("modal-content"); //find element with id modal-content
     modal_content.innerHTML = `
-    <img class="gif-image2" src="gif/sassy2.gif" alt="Rick Roll">
+    <img class="gif-image2" src="gif/vbucks.gif" alt="Rick Roll">
    <div class="center-content">
         <h2 style="color:green;">Your Free V-BUCKS are on there way!</h2>
    </div>

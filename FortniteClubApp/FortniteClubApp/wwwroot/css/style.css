@@ -229,7 +229,7 @@ footer {
 
 
 .frame {
-    background-color: red;
+    background-color: #fff;
     position: fixed;
     top: 0%;
     left: 78%;
@@ -237,7 +237,17 @@ footer {
     transform: rotate(40deg);
 }
 
-.c-img {
+
+.frame2 {
+    background-color: #fff;
+    position: fixed;
+    top: 0%;
+    left: -15%;
+    padding: 5px;
+    transform: rotate(-40deg);
+}
+
+    .c-img {
     width: 360px;
 }
 
@@ -255,4 +265,25 @@ footer {
 
 .btn-submit {
     padding: 10px 30px;
+}
+
+.grid-container1 {
+    display: grid;
+    grid-template-columns: 1fr 1.3fr;
+    background-color: #fff;
+}
+
+.grid-container1 > div {
+   padding: 20px;
+}
+
+.contact-container {
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.df {
+    display: flex;
+    justify-content: center;
 }
